@@ -66,5 +66,8 @@ client.secrets.kv.v2.read_secret_version(
 
 ---
 
+https://github.com/AlexanderSpitsyn07/kubercloud/tree/master/DZsinhsecret
+
+---
 
 
