@@ -27,7 +27,7 @@ kubectl describe configmap domain
 ```
 ### Ответ.
 
-![Screenshot](3.png)
+![Screenshot](2.png)
 
 ### Как получить информацию в формате YAML и/или JSON?
 
@@ -78,3 +78,9 @@ kubectl apply -f nginx-config.yml
 Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
 
 ---
+
+https://github.com/AlexanderSpitsyn07/kubercloud/tree/master/DZconfmap
+
+---
+
+
