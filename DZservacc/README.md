@@ -84,6 +84,7 @@ curl -H "Authorization: Bearer $TOKEN" --cacert $CACERT $K8S/api/v1/
 
 ---
 
+https://github.com/AlexanderSpitsyn07/kubercloud/tree/master/DZservacc
 
 ---
 
