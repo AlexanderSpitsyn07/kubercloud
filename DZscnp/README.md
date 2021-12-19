@@ -23,5 +23,6 @@ uid=1000 gid=3000 groups=3000
 
 Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
 
+https://github.com/AlexanderSpitsyn07/kubercloud/tree/master/DZscnp
 ---
 
