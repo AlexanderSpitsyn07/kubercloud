@@ -1,0 +1,11 @@
+#cloud-config
+users:
+  - name: ubuntu
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDF90k9o0GNN4MtR49pmhwoz+Jig8DJ0tUoALFpd5oG33pFBzMUK8/is3hEeXwR7uLSPces9cMRSaIeX92+NJUp3zRkHD6WtV+Fm2KCeAeFfaMrx5TfcvwUc0mvN8gGu3adjE86h1+p+3ei7u/XYjj9nAH5YrTujRd9q+4qieHpoXklIQ2rWsgq6R1f2DSL/x1ZxShoGUUw+NUmV5GRWgXj/QSdkTiIUBYQgyHJ0a7nCITOucJ9e9o2x+CtuJy5XEqK+R0RMkeiiwxPeNV5AIq0ypqvw6M4SwBWrTc1MH1B88Q9H21fAicBoHPqy8cVjQFJLtbD89deJ4iR+h3UhVpeOw5VxmA/A2pOeQIdTPCEri6VwMxfbzPOKsAU3FJ5vl3Wo7gOvqOf1WmD3pwb2fzmwJRZOTihA7hRdnhOymx1DMWG7B60CH2MHGSdkRh/Ejc//0D0B4bAfqvdSoy1P7ip8UiBX3/r7b1VUVg5ugPLS9b7VMYy2uXy5B/zSeLNE3s= alexander@ocelotik
+runcmd:
+  - echo "https://storage.yandexcloud.net/ocelotik-bucket/Tarja?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=U68JewFymsPB7K7bz7BE%2F20220109%2Fru-central1%2Fs3%2Faws4_request&X-Amz-Date=20220109T093349Z&X-Amz-Expires=18000&X-Amz-Signature=0A466A888227B2FF856198FC5F6099AF22A6BF213AEE45D2A741A1665F18CC6A&X-Amz-SignedHeaders=host" > /var/www/html/index.html
+
